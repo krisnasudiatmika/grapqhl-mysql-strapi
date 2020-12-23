@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "name": "customer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "customer_name": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "contact_name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "cell": {
+      "type": "string"
+    },
+    "fax": {
+      "type": "string"
+    },
+    "billing_contact_name": {
+      "type": "string"
+    },
+    "billing_position": {
+      "type": "string"
+    },
+    "billing_email": {
+      "type": "string"
+    },
+    "billing_phone": {
+      "type": "string"
+    },
+    "billing_supplier": {
+      "type": "string"
+    },
+    "billing_discount": {
+      "type": "string"
+    },
+    "addr_company_name": {
+      "type": "string"
+    },
+    "addr_address": {
+      "type": "string"
+    },
+    "addr_city": {
+      "type": "string"
+    },
+    "addr_state": {
+      "type": "string"
+    },
+    "addr_country": {
+      "type": "string"
+    },
+    "addr_postal_code": {
+      "type": "string"
+    }
+  }
+}

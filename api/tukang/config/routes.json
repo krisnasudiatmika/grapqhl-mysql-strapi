@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tukangs",
+      "handler": "tukang.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tukangs/count",
+      "handler": "tukang.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tukangs/:id",
+      "handler": "tukang.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tukangs",
+      "handler": "tukang.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tukangs/:id",
+      "handler": "tukang.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tukangs/:id",
+      "handler": "tukang.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

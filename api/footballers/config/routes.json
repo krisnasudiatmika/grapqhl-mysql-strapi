@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/footballers",
+      "handler": "footballers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/footballers/count",
+      "handler": "footballers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/footballers/:id",
+      "handler": "footballers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/footballers",
+      "handler": "footballers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/footballers/:id",
+      "handler": "footballers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/footballers/:id",
+      "handler": "footballers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footballers_s",
+  "info": {
+    "name": "Footballers "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    }
+  }
+}
